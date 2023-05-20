@@ -1,0 +1,7 @@
+{
+  "name": "do-ne",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
