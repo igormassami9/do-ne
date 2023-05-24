@@ -105,3 +105,66 @@
       border-radius: 12px;
       color: #501ace;
   }
+  .text1 {
+    position: absolute;
+    width: 154px;
+    height: 21px;
+    top: 627px;
+    left: 120px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 86.5%;
+    display: flex;
+    text-align: center;
+    color: #9C9D9F;
+    justify-content: center;
+    align-items: center;
+  }
+  .linha1 {
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 17px;
+    top: 637px;
+    border: 1px solid #33363E;
+  }
+  .linha2 {
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 286px;
+    top: 637px;
+    border: 1px solid #33363E;
+  }
+  .text2 {
+    position: absolute;
+    width: 101px;
+    height: 21px;
+    left: 37%;
+    top: 662px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 86.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #9C9D9F;
+    justify-content: center;
+  }
+  .botao-cadastro {
+    position: absolute;
+    width: 201px;
+    height: 54px;
+    left: 94px;
+    top: 745px;
+    --border-radius: 27px;
+  .texto-cadastro {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #080718;
+  }
+  }
