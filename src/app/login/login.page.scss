@@ -74,3 +74,34 @@
     .custom-parent {
       color: #16142C;
     }
+    .texto-login {
+      color: #16142C;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 21px;            
+    }
+    .rounded-rectangle {
+      position: absolute;
+      width: 232px;
+      height: 49px;
+      left: calc(50% - 232px/2);
+      top: 492px;
+      background: #1F222A;
+      border-radius: 12px;      
+    }
+    .google-logo {
+      position: absolute;
+      width: 29.94px;
+      height: 31px;
+      left: 10px;
+      top: 9px;
+    }
+    .text-google {
+      color: #FFFFFF;
+      margin-left: 20px;
+    }
+    .custom-ripple {
+      visibility: inherit;
+      border-radius: 12px;
+      color: #501ace;
+  }
