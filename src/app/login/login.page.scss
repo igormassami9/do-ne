@@ -1,0 +1,76 @@
+    .background {
+      background-color: #16142C !important;
+      position: relative;
+      height: 100%;
+    }    
+    .custom-button {
+      position: absolute;
+      left: 6.92%;
+      right: 88.46%;
+      top: 7.35%;
+      bottom: 89.55%;
+    }
+    .login-label {
+      position: absolute;
+      width: 247px;
+      height: 95px;
+      left: 72px;
+      top: 80px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 86.5%;
+      /* or 35px */
+      
+      display: flex;
+      align-items: center;
+      
+      color: #FFFFFF;
+    }
+    .email-input {
+      position: absolute;
+      width: 346px;
+      height: 57px;
+      left: 22px;
+      top: 210px;
+      background: #1F222A;
+      border-radius: 8px;
+    }
+    .senha-input {
+      position: absolute;
+      width: 346px;
+      height: 56px;
+      left: 22px;
+      top: 278px;
+      background: #1F222A;
+      border-radius: 8px;
+    }
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+    
+      height: 170px;
+      width: 400px;
+    
+      margin: 0 auto;
+    }
+    .ripple-parent {
+      position: absolute;
+      width: 295px;
+      height: 54px;
+      left: calc(50% - 295px/2 - 0.5px);
+      top: 375px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #5598BD;    
+      border-radius: 24px;
+    }
+    .custom-parent {
+      color: #16142C;
+    }
