@@ -19,11 +19,8 @@ const routes: Routes = [
         path: 'tab3',
         loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
       },
-      // ... outras rotas das páginas das tabs
-      { path: '', redirectTo: '/tabs/tab1', pathMatch: 'full' } // Define a rota padrão dentro das tabs
     ]
   },
-  { path: '', redirectTo: '/login', pathMatch: 'full' } // Redireciona para a página de login caso não haja nenhuma rota correspondente
 ];
 
 @NgModule({

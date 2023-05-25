@@ -12,10 +12,11 @@
     }
     .login-label {
       position: absolute;
-      width: 247px;
+      width: 266px;
       height: 95px;
       left: 72px;
       top: 80px;
+      font-family: 'Be Vietnam Pro', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 40px;
@@ -76,6 +77,7 @@
     }
     .texto-login {
       color: #16142C;
+      font-family: 'Be Vietnam Pro', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 21px;            
@@ -112,6 +114,7 @@
     top: 627px;
     left: 120px;
 
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
@@ -144,6 +147,8 @@
     height: 21px;
     left: 37%;
     top: 662px;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -159,9 +164,10 @@
     width: 201px;
     height: 54px;
     left: 94px;
-    top: 745px;
+    top: 732px;
     --border-radius: 27px;
   .texto-cadastro {
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
