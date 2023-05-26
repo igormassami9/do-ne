@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar horizontalmente */
+    flex-direction: column; /* Para alinhar verticalmente */
+}
+.custom-button {
+    position: absolute;
+    left: 6.92%;
+    right: 88.46%;
+    top: 7.35%;
+    bottom: 89.55%;
+}
+.bv {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+    color: #FFFFFF;    
+}
+.ilustracao {
+    position: absolute;
+    width: 331px;
+    height: 241px;
+    left: calc(50% - 331px/2 - 0.5px);
+    top: 152px;    
+}
+
+.texto-introducao {
+    position: absolute;
+    width: 304px;
+    height: 101px;
+    left: calc(50% - 304px/2);
+    top: 410px; 
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.b {
+    position: absolute;
+    width: 304px;
+    height: 101px;
+    left: calc(50% - 304px/2);
+    top: 501px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+ion-button {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: calc(50% - 295px/2 - 0.5px);
+    top: 693px;
+    
+    background: #5598BD;
+    border-radius: 27px;
+}

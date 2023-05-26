@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-bem-vindo',
   templateUrl: './bem-vindo.page.html',
   styleUrls: ['./bem-vindo.page.scss'],
 })
-export class BemVindoPage implements OnInit {
+export class BemVindoPage {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
-  ngOnInit() {
+  irParaProximaPagina() {
+    this.navCtrl.navigateForward('/bem-vindo2');
   }
-
 }

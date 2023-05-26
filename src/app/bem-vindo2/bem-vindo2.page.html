@@ -1,13 +1,22 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>bem-vindo2</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="ion-padding" style="--background: #16142C;">
+  <div class="container">    
+    
+    <ion-buttons class="custom-button">
+      <ion-back-button  defaultHref="bem-vindo"></ion-back-button>
+    </ion-buttons>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">bem-vindo2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+
+    <p class="bv">Bem Vindo</p>
+    <img class="ilustracao" src="../assets/img/ilustracao2.png" alt="">
+    <ion-button (click)="irParaProximaPagina()">Próximo</ion-button>
+  
+    <p class="texto-introducao">
+      <b>Chega de procrastinar!</b>
+      <br>
+      <br>
+      Esteja no controle do seu tempo 
+      e alcance suas metas.</p>
+  
+  </div>
 </ion-content>
