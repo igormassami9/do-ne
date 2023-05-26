@@ -1,3 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar horizontalmente */
+    flex-direction: column; /* Para alinhar verticalmente */
+}
+.bv {
+    position: absolute;
+    width: 247px;
+    height: 53px;
+    left: 72px;
+    top: 51px;
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 86.5%;
+    /* or 35px */
+    color: #FFFFFF;    
+}
+.ilustracao {
+    position: absolute;
+    width: 331px;
+    height: 241px;
+    left: calc(50% - 331px/2 - 0.5px);
+    top: 152px;    
+}
 ion-button {
     font-family: 'Roboto', sans-serif;
 }
