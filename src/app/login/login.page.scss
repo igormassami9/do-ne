@@ -2,6 +2,8 @@
       background-color: #16142C !important;
       position: relative;
       height: 100%;
+      justify-content: center; /* Centralizar horizontalmente */
+      flex-direction: column; /* Para alinhar verticalmente */
     }    
     .custom-button {
       position: absolute;
@@ -29,6 +31,7 @@
       color: #FFFFFF;
     }
     .email-input {
+      color: #9E9E9E;
       position: absolute;
       width: 346px;
       height: 57px;
@@ -38,6 +41,7 @@
       border-radius: 8px;
     }
     .senha-input {
+      color: #9E9E9E;
       position: absolute;
       width: 346px;
       height: 56px;
