@@ -1,13 +1,29 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>cadastro</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="ion-padding" style="--background: #16142C;">
+  <div class="container">    
+    <ion-buttons class="custom-button">
+      <ion-back-button  defaultHref="login"></ion-back-button>
+    </ion-buttons>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">cadastro</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <p class="titulo1">Crie a sua conta</p>
+
+    <ion-input class="email-input" type="email" label="E-mail" label-placement="floating" fill="outline" placeholder="Digite seu E-mail"></ion-input>
+    <ion-input class="senha-input" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Digite sua senha"></ion-input>
+
+    <div class="ion-activatable ripple-parent custom-parent">
+      <b class="texto-cadastro">Cadastrar-se</b>
+      <ion-ripple-effect></ion-ripple-effect>
+    </div>
+    
+    <div class="linha1"></div>
+    <b class="text1">Ou cadastrar-se com</b>
+    <div class="linha2"></div>
+
+    <div class="ion-activatable ripple-parent rounded-rectangle">      
+      <img src="../assets/img/google-logo.png" alt="Botão Google">
+      <ion-ripple-effect></ion-ripple-effect>
+    </div>
+
+    <p class="text2">Já tem uma conta? <a class="hidden-button" href="/login">Entre aqui</a></p>
+
+  </div>
 </ion-content>
