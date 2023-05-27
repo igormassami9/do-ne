@@ -11,17 +11,6 @@
     top: 7.35%;
     bottom: 89.55%;
 }
-.bv {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
-    
-
-    color: #FFFFFF;    
-}
 .ilustracao {
     position: absolute;
     width: 331px;
@@ -29,12 +18,11 @@
     left: calc(50% - 331px/2 - 0.5px);
     top: 152px;    
 }
-
 .texto-introducao {
     position: absolute;
-    width: 304px;
+    width: 319px;
     height: 101px;
-    left: calc(50% - 304px/2);
+    left: calc(50% - 155px); 
     top: 410px; 
     
     font-family: 'Be Vietnam Pro';

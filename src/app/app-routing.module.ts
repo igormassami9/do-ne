@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'bem-vindo3',
     loadChildren: () => import('./bem-vindo3/bem-vindo3.module').then( m => m.BemVindo3PageModule)
   },
+  {
+    path: 'cadastro',
+    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },
 
 
 
