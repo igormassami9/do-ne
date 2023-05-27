@@ -3,5 +3,8 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "firebase": {
+    "apiKey": "AIzaSyA9ZoYCZcgp1CQt0s-XKk8BghjZIDkxDko"
+  }
 }

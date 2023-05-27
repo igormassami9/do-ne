@@ -10,7 +10,7 @@ export class LoginPage implements OnInit {
 
   constructor(private navCtrl: NavController) { }
 
-  irParaProximaPagina() {
+  telaCadastro() {
     this.navCtrl.navigateForward('/cadastro');
   }
 

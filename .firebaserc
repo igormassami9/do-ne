@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "do-ne-c09a2": {
+      "hosting": {
+        "app": [
+          "do-ne-c09a2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "do-ne-c09a2"
+  }
+}
