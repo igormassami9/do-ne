@@ -15,10 +15,11 @@ const routes: Routes = [
     path: 'login', 
     loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule)
   },
-  { 
-    path: 'tabs', 
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule) 
-  },  {
+  {
+    path: '',
+    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
     path: 'bem-vindo2',
     loadChildren: () => import('./bem-vindo2/bem-vindo2.module').then( m => m.BemVindo2PageModule)
   },
@@ -30,10 +31,6 @@ const routes: Routes = [
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
   },
-
-
-
-  // ... outras rotas das páginas do seu aplicativo
 ];
 
 @NgModule({

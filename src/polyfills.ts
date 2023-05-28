@@ -53,3 +53,13 @@ import 'zone.js';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+(function() {
+    const originalNavigator = navigator;
+    Object.defineProperty(window, 'navigator', {
+      get: function() {
+        return Object.assign({}, originalNavigator, {
+          userAgent: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)'
+        });
+      }
+    });
+  })();

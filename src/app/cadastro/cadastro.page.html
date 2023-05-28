@@ -1,15 +1,15 @@
 <ion-content class="ion-padding" style="--background: #16142C;">
   <div class="container">    
     <ion-buttons class="custom-button">
-      <ion-back-button  defaultHref="login"></ion-back-button>
+      <ion-back-button defaultHref="login"></ion-back-button>
     </ion-buttons>
 
     <p class="titulo1">Crie a sua conta</p>
 
-    <ion-input class="email-input" type="email" label="E-mail" label-placement="floating" fill="outline" placeholder="Digite seu E-mail"></ion-input>
-    <ion-input class="senha-input" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Digite sua senha"></ion-input>
+    <ion-input class="email-input" type="email" label="E-mail" label-placement="floating" fill="outline" placeholder="Digite seu E-mail" [(ngModel)]="email"></ion-input>
+    <ion-input class="senha-input" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Digite sua senha" [(ngModel)]="senha"></ion-input>
 
-    <div class="ion-activatable ripple-parent custom-parent">
+    <div class="ion-activatable ripple-parent custom-parent" (click)="cadastrar()">
       <b class="texto-cadastro">Cadastrar-se</b>
       <ion-ripple-effect></ion-ripple-effect>
     </div>

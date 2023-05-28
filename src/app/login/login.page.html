@@ -5,11 +5,11 @@
   </ion-buttons>
 
       <ion-label class="login-label">Faça o Login</ion-label>
-      <ion-input class="email-input" label="E-mail" label-placement="floating" fill="outline" placeholder="Digite seu E-mail"></ion-input>
-      <ion-input class="senha-input" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Digite sua senha"></ion-input>
+      <ion-input id="email" class="email-input" label="E-mail" label-placement="floating" fill="outline" placeholder="Digite seu E-mail"></ion-input>
+      <ion-input id="senha" class="senha-input" type="password" label="Senha" label-placement="floating" fill="outline" placeholder="Digite sua senha"></ion-input>
 
       <div class="wrapper">      
-        <div class="ion-activatable ripple-parent custom-parent">
+        <div class="ion-activatable ripple-parent custom-parent" type="submit" (click)="fazerLogin()">
           <b class="texto-login">Fazer Login</b>
           <ion-ripple-effect></ion-ripple-effect>
         </div>
