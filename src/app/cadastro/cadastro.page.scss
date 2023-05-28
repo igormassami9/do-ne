@@ -10,8 +10,8 @@
     position: absolute;
     width: 247px;
     height: 95px;
-    left: 19px;
-    top: 128px;
+    left: 31px;
+    top: 85px;
 
     font-family: 'Be Vietnam Pro';
     font-style: normal;
@@ -25,7 +25,15 @@
 
     color: #FFFFFF;
 }
-
+.user-input {
+    position: absolute;
+    width: 346px;
+    height: 57px;
+    left: 22px;
+    top: 244px;    
+    color: #9E9E9E;
+    background: #1F222A;
+}
 .email-input {
     color: #9E9E9E;
     position: absolute;

@@ -1,17 +1,26 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" style="--background: #16142C;">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <p class="titulo1">Cronôemtro & Pomodoro</p>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <b class="min">Min</b> <b class="seg">Seg</b>
+
+  <p class="timer" *ngIf="!pomoDescanso">{{ minutos }}:{{ segundos | number: '2.0' }}</p>
+
+  <ion-button class="reset-timer" shape="round" (click)="resetaPomo()">
+    <ion-icon name="refresh-outline"></ion-icon>
+  </ion-button>
+
+  <ion-button class="play-timer" shape="round" (click)="iniciarPomo()" *ngIf="!tempoCorrendo && !pomoDescanso">
+    <ion-icon name="play"></ion-icon>
+  </ion-button>
+
+  <ion-button class="pause-timer" shape="round" (click)="pausaPomo()" *ngIf="tempoCorrendo">
+    <ion-icon name="pause"></ion-icon>
+  </ion-button>
+
+    <p class="texto1" *ngIf="tempoCorrendo">Mantenha o foco!</p>
+    <p class="texto1" *ngIf="pomoDescanso">5 Minutos de descanso!</p>
+    <ion-button class="trocar-crono">
+      <b class="texto-trocar">Trocar cronômetro</b>
+    </ion-button>
 </ion-content>
