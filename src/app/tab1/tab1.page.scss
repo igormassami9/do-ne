@@ -1,0 +1,62 @@
+.user-text {
+    position: absolute;
+    width: 390px;
+    height: 49px;
+    left: 8px;
+    top: 10px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.texto-fundo {
+    position: absolute;
+    width: 226px;
+    height: 146px;
+    left: calc(50% - 226px/2);
+    top: calc(50% - 116px - 42px);
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #676D75;    
+}
+.botao-criar {
+    position: absolute;
+    width: 178px;
+    height: 50px;
+    left: calc(50% - 178px/2 - 3px);
+    top: 655px;
+    color: #16142C;
+    background: #219BDF;
+    border-radius: 30px;   
+    
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.list-md {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 120px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: none;
+}

@@ -1,17 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Teste
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" style="--background: #16142C;">
+  <p class="user-text">Olá, {{ nomeUsuario }}!👋</p>
+  <p class="texto-fundo">Crie uma tarefa</p>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-button class="botao-criar" shape="round" (click)="abrirModal()">
+    Criar
+    <ion-icon name="add-circle-sharp"></ion-icon>
+  </ion-button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+    <ion-item class="item-tarefa" *ngFor="let tarefa of tarefas">
+      <ion-label label="Nome">{{ tarefa.nome }}</ion-label>
+      <ion-label label="Prazo">{{ tarefa.prazo }}</ion-label>
+      <ion-button (click)="concluirTarefa(tarefa)">Feito</ion-button>
+      <ion-button (click)="editarTarefa(tarefa)">Editar</ion-button>
+      <ion-button (click)="excluirTarefa(tarefa)">Excluir</ion-button>
+    </ion-item>
+  </ion-list>
 </ion-content>

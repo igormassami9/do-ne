@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ modalTitle }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="fecharModal()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-input label="Nome" [(ngModel)]="tarefa.nome"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="tarefa.prazo" pickerFormat="DD MMM YYYY"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-textarea label="Descrição" [(ngModel)]="tarefa.descricao"></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" (click)="salvarTarefa()">Salvar</ion-button>
+</ion-content>

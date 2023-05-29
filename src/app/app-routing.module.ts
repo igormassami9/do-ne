@@ -31,7 +31,11 @@ const routes: Routes = [
   {
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },  {
+    path: 'task-modal',
+    loadChildren: () => import('./task-modal/task-modal.module').then( m => m.TaskModalPageModule)
   },
+
 ];
 
 @NgModule({
